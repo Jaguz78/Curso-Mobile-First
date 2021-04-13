@@ -208,14 +208,15 @@ main{
     min-width: 173px;
     max-width: 288px;
     height: 31px;
+    margin: 0 auto;
     margin-top: 14px;
     border-radius: 8px;
     background-color: var(--soft-orange);
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: calc(50% - 86.5px);
+    /* position: absolute;
+    left: calc(50% - 86.5px); */
 }
 .date--button-blue{
     width: 173px;
@@ -223,13 +224,14 @@ main{
     max-width: 288px;
     height: 31px;
     margin-top: 14px;
+    margin: 0 auto;
     border-radius: 8px;
     background-color: var(--soft-blue);
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: calc(50% - 86.5px);
+    /* position: absolute;
+    left: calc(50% - 86.5px); */
 }
 .main--product-detail{
     width: 100%;
