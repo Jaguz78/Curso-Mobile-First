@@ -541,6 +541,16 @@ main{
     border-width: 2px;
     color: var(--off-white);
 }
+.card-ca-premium span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: -5px;
+}
 /* Scroll horizontal de las tarjetas */
 .cards-container--slider{
     display: flex;
