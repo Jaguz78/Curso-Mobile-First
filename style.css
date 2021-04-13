@@ -389,6 +389,7 @@ main{
 }
 .plan-card{
     width: 60%;
+    scroll-snap-align: center;
     min-width: 180px;
     max-width: 300px;
     height: 247px;
@@ -491,6 +492,7 @@ main{
 }
 .plan-card-premium{
     width: 60%;
+    scroll-snap-align: center;
     min-width: 180px;
     max-width: 300px;
     height: 247px;
@@ -539,3 +541,20 @@ main{
     border-width: 2px;
     color: var(--off-white);
 }
+/* Scroll horizontal de las tarjetas */
+.cards-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 30px;
+    padding: 0 30px;
+}
+.cards-container--slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+  }
+  .cards-container--slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+  }
