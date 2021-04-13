@@ -559,7 +559,6 @@ main{
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     gap: 30px;
-    padding: 0 30px;
 }
 .cards-container--slider::-webkit-scrollbar {
     background-color: var(--soft-orange);
