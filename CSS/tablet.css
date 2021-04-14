@@ -13,3 +13,6 @@
     width: 930px;
     margin: 0 auto;
 }
+.bitcoin--img-container{
+    background-attachment: fixed;
+}
