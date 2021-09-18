@@ -1,2 +1,2 @@
 # Curso-Mobile-First
-Es como el anterior pero esta vez si lo voy a subir bien
+Una pagina responsive que se adapta a celulares, tablets y computadoras.
