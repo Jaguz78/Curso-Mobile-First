@@ -1,18 +1,23 @@
-.cards-container--slider{
-    justify-content: center;
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
-.tajetas-container{
-    display: flex;
-    max-width: 978px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px auto;
+.cards-container--slider {
+  justify-content: center;
 }
-.main--tables-container{
-    display: flex;
-    width: 930px;
-    margin: 0 auto;
+.tajetas-container {
+  display: flex;
+  max-width: 978px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto;
 }
-.bitcoin--img-container{
-    background-attachment: fixed;
+.main--tables-container {
+  display: flex;
+  width: 930px;
+  margin: 0 auto;
+}
+.bitcoin--img-container {
+  background-attachment: fixed;
 }
